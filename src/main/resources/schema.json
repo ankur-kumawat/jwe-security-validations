@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "DOB": {
+      "type": "string"
+    },
+    "employment": {
+      "type": "string"
+    },
+    "monthlyRent": {
+      "type": "integer"
+    },
+    "housingStatus": {
+      "type": "string"
+    },
+    "ssn": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "firstName",
+    "lastName",
+    "DOB",
+    "employment",
+    "monthlyRent",
+    "housingStatus",
+    "ssn",
+    "email"
+  ]
+}
